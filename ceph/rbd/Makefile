@@ -13,7 +13,7 @@
 # limitations under the License.
 
 ifeq ($(REGISTRY),)
-	REGISTRY = quay.io/external_storage/
+	REGISTRY = eu.gcr.io/ebpf-211311/
 endif
 
 ifeq ($(VERSION),)
